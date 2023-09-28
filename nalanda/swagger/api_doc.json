@@ -1,0 +1,178 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "093 Api文件",
+        "description": "093 Api 文件",
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "http://localhost/093"
+        }
+    ],
+    "paths": {
+        "/api/version": {
+            "get": {
+                "tags": [
+                    "version"
+                ],
+                "summary": "版本資訊",
+                "description": "返回版本資訊",
+                "operationId": "Api::version",
+                "responses": {
+                    "200": {
+                        "description": "版本資訊"
+                    }
+                }
+            }
+        },
+        "/api/login": {
+            "post": {
+                "tags": [
+                    "user"
+                ],
+                "summary": "使用者登入",
+                "operationId": "Api::login",
+                "requestBody": {
+                    "description": "params",
+                    "content": {
+                        "multipart/form-data": {
+                            "schema": {
+                                "required": [
+                                    "account",
+                                    "password"
+                                ],
+                                "properties": {
+                                    "account": {
+                                        "type": "string"
+                                    },
+                                    "password": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "登入成功回傳",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "token": {
+                                            "type": "string",
+                                            "default": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiMTAxMSIsImNyZWF0ZV90aW1lIjoiMjAyMS0wNS0yMCAwMjozODoyOCIsImV4cGlyZWRfdGltZSI6IjIwMjEtMDUtMjcgMDI6Mzg6MjgifQ.4ETpSFuYzSvqf9f_gT6QWbcATyRGzpn_YJrRkUxIxJw"
+                                        },
+                                        "data": {
+                                            "properties": {
+                                                "id": {
+                                                    "type": "number",
+                                                    "default": "551"
+                                                },
+                                                "atid": {
+                                                    "type": "number",
+                                                    "default": "sd8486"
+                                                },
+                                                "avatar": {
+                                                    "type": "string",
+                                                    "default": "uploads/xxx.jpg"
+                                                },
+                                                "username": {
+                                                    "type": "string",
+                                                    "default": "小明"
+                                                },
+                                                "account": {
+                                                    "type": "string",
+                                                    "default": "jason5566"
+                                                },
+                                                "email": {
+                                                    "type": "string",
+                                                    "default": "test@gmail.com"
+                                                },
+                                                "mobile": {
+                                                    "type": "number"
+                                                },
+                                                "is_activity": {
+                                                    "type": "number"
+                                                },
+                                                "is_refuge": {
+                                                    "type": "number"
+                                                },
+                                                "is_connection": {
+                                                    "type": "number",
+                                                    "default": "1"
+                                                },
+                                                "idname": {
+                                                    "type": "string",
+                                                    "default": "E123459863"
+                                                }
+                                            },
+                                            "type": "object"
+                                        },
+                                        "status": {
+                                            "type": "string",
+                                            "default": "true"
+                                        },
+                                        "msg": {
+                                            "type": "string",
+                                            "default": "登入成功"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/edit_user": {
+            "post": {
+                "tags": [
+                    "user"
+                ],
+                "summary": "編輯資料",
+                "operationId": "Api::edit_user",
+                "requestBody": {
+                    "description": "params",
+                    "content": {
+                        "multipart/form-data": {
+                            "schema": {
+                                "required": [
+                                    "token"
+                                ],
+                                "properties": {
+                                    "token": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "修改資料回傳",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "user": {
+                                            "type": "string",
+                                            "default": "user"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,194 @@
+/*---------- 23. Contact style ------------*/
+
+.contact-list {
+    .contact-list-item {
+        font-family: 'PingFang', 'PingFangTC-Regular', 'Noto Sans TC', sans-serif;
+        display: block;
+        padding: 10px 0;
+    }
+
+    a {
+        color: #424242;
+        font-size: 13px;
+
+        &:hover {
+            color: #9C5658;
+        }
+
+        img {
+            margin-right: 10px;
+            width: 20px;
+        }
+    }
+}
+
+.contact-form-padding {
+    padding: 80px 100px 55px;
+
+    @media #{$lg-layout} {
+        padding: 80px 60px 55px;
+    }
+
+    @media #{$md-layout} {
+        padding: 60px 30px 35px;
+    }
+
+    @media #{$xs-layout} {
+        padding: 50px 20px 35px;
+    }
+}
+
+.contact-form-area {
+    h3 {
+        font-weight: 500;
+        color: #222222;
+        margin: 0 0 38px;
+
+        @media #{$xs-layout} {
+            margin: 0 0 20px;
+        }
+    }
+
+    .single-contact-form {
+        margin-bottom: 20px;
+
+        @media #{$xs-layout} {
+            margin-bottom: 16px;
+        }
+
+        input,
+        textarea {
+            font-family: 'PingFang', 'PingFangTC-Regular', 'Noto Sans TC', sans-serif;
+            border: 1px solid #424242;
+            background-color: $white;
+            height: 45px;
+            font-size: 13px;
+            font-weight: 500;
+            padding: 2px 16px;
+            color: #424242;
+
+            &::-moz-input-placeholder {
+                color: #424242;
+                opacity: 1;
+            }
+
+            &::-webkit-input-placeholder {
+                color: #424242;
+                opacity: 1;
+            }
+        }
+
+        textarea {
+            height: 152px;
+            padding: 16px;
+        }
+
+        p {
+            font-size: 12px;
+            color: #999999;
+            font-style: italic;
+            margin: 29px 0 39px;
+
+            @media #{$xs-layout} {
+                margin: 29px 0 29px;
+            }
+        }
+
+        button {
+            &.submit {
+                font-family: 'PingFang', 'PingFangTC-Regular', 'Noto Sans TC', sans-serif;
+                font-size: 13px;
+                font-weight: 600;
+                color: $white;
+                border: none;
+                line-height: 1;
+                padding: 20px 40px 20px;
+                background-color: #222222;
+
+                &:hover {
+                    background-color: #9C5658;
+                }
+            }
+        }
+    }
+}
+
+.contact-info-area {
+    margin: 0 0 0 50px;
+
+    @media #{$lg-layout} {
+        margin: 0 0 0 0px;
+    }
+
+    @media #{$md-layout} {
+        margin: 0 0 0 0px;
+    }
+
+    @media #{$xs-layout} {
+        margin: 30px 0 0 0px;
+    }
+}
+
+.single-contact-info {
+    margin: 0 0 52px;
+
+    @media #{$xs-layout} {
+        margin: 0 0 32px;
+    }
+
+    &:last-child {
+        margin: 0 0 0px;
+    }
+
+    h3 {
+        font-weight: bold;
+        margin: 0;
+        line-height: 1;
+        color: #222222;
+    }
+
+    p {
+        line-height: 31px;
+        color: #999999;
+        margin: 0 0 1px;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+
+        li {
+            margin-right: 23px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            a {
+                font-size: 16px;
+                color: #424242;
+                font-family: 'PingFang', 'PingFangTC-Regular', 'Noto Sans TC', sans-serif;
+
+                &:hover {
+                    color: #9C5658;
+                }
+            }
+        }
+    }
+}
+
+#contact-map {
+    height: 600px;
+
+    @media #{$lg-layout} {
+        height: 450px;
+    }
+
+    @media #{$md-layout} {
+        height: 400px;
+    }
+
+    @media #{$xs-layout} {
+        height: 300px;
+    }
+}

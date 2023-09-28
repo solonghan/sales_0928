@@ -1,0 +1,186 @@
+.discovery a {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1;
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-family: 'PingFang', 'PingFangTC-Regular', 'Noto Sans TC', sans-serif;
+}
+
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .discovery a {
+    margin-top: 0;
+  }
+}
+
+
+.discovery a:hover {
+  background-color: #9C5658;
+  color: #fff;
+}
+
+
+
+
+.collect_title {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .collect_title {
+    font-size: 24px;
+    font-weight: 400;
+  }
+}
+
+
+.collect_bottom {
+  margin-bottom: 120px
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .collect_bottom {
+    margin-bottom: 150px;
+  }
+}
+
+
+
+.collection-style5 {
+  padding-bottom: 60px;
+}
+
+.collect_img {
+  width: 70%;
+}
+
+@media (max-width: 1024px) {
+  .collect_img {
+    width: 100%;
+    padding-bottom: 0px;
+  }
+
+  .collection-style5 {
+    padding-bottom: 400px;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .collection-style5 {
+    padding-bottom: 200px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .collect_img {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .collection-style5 {
+    padding-bottom: 24vh;
+    padding-top: 0;
+  }
+}
+
+
+
+
+.bride_img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+.bride_img_detail {
+  /*height: 800px;*/
+  width: 100%;
+  object-fit: contain;
+  /*padding: 40px*/
+}
+
+@media (min-width: 1441px) {
+  .bride_img_detail {
+    max-height: 750px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1440px) and (min-width: 1025px) {
+  .bride_img_detail {
+    max-height: 510px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .bride_img_detail {
+    max-height: 420px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 481px) {
+  .bride_img_detail {
+    max-height: 295px;
+    width: 100%;
+  }
+}
+
+
+.send_button {
+  margin-top: 30px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffffff;
+  border: none;
+  line-height: 1;
+  padding: 20px 40px;
+  background-color: #333333;
+}
+
+
+.send_button:hover {
+  background-color: #DEB887;
+}
+
+
+.datetime {
+  height: 62px;
+  line-height: 62px;
+  font-size: 13px;
+  color: #999999;
+  background-color: #fff;
+  border: 1px solid #EEEEEE;
+  padding: 2px 25px;
+}
+
+
+.ig_img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  margin: 20px
+}
+
+
+#iFrame_01 {
+  background-color: #ffcc99;
+}
+
+
+.cotitle {
+  font-size: 16px;
+  /*  font-weight: bold; */
+  margin: 0 0 0;
+  position: relative;
+  line-height: 1;
+  padding-bottom: 16px;
+  padding-left: 2px;
+}

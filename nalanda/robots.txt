@@ -1,0 +1,8 @@
+User-agent: *
+
+Disallow: /applications/
+Disallow: /system/
+Disallow: /backend/
+Disallow: /assets/
+Disallow: /xls_file/
+

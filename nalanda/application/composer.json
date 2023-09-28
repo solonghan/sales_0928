@@ -1,0 +1,9 @@
+{
+    "require-dev": {
+        "kint-php/kint": "^3.3"
+    },
+    "require": {
+        "zircote/swagger-php": "^3.2",
+        "linecorp/line-bot-sdk": "^7.2"
+    }
+}

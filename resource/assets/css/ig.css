@@ -1,0 +1,43 @@
+/************************************
+   Instagram posts
+*************************************/
+
+.instagram_img{
+  width: 15%
+}
+
+.instagram_img .instagram-post_block {
+      text-align: center;
+      position: absolute;
+      z-index: 5;
+      opacity: 0;
+      top: 50%;
+      left: 50%;
+      -webkit-transition: all .4s ease;
+      -moz-transition: all .4s ease;
+      -ms-transition: all .4s ease;
+      -o-transition: all .4s ease;
+      transition: all .4s ease;
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+.instagram_img .instagram-post_block i {
+        font-size: 24px;
+        color: #fff;
+        display: block;
+        margin-bottom: 15px; }
+.instagram_img .instagram-post_block p {
+        font-family: "微軟正黑體";
+        font-size: 16px;
+        color: #fff;
+        line-height: 1;
+        display: block; }
+
+#imgflat ul li {
+
+    float:left;
+    margin: 8px;
+
+}
