@@ -1,0 +1,44 @@
+schedule:
+2022-12-09 17:36:57
+{"customer_id":"","item_id":"7","alert":0,"note":0,"start_date":"2022-12-06 14:03:00","end_date":"2022-12-06 15:03:00","schedule_type":"text","text_title":""}
+
+schedule:
+2022-12-09 17:44:23
+{"customer_id":"","item_id":"7","alert":0,"note":0,"start_date":"2022-12-06 14:03:00","end_date":"2022-12-06 15:03:00","schedule_type":"text","text_title":""}
+
+where_data:
+2022-12-09 17:44:23
+{"id":"22840","user_id":"16"}
+
+where_data:
+2022-12-09 18:06:40
+{"id":"22840","user_id":"16"}
+
+schedule:
+2022-12-09 18:06:40
+{"customer_id":0,"item_id":"7","alert":0,"note":0,"start_date":"2022-12-06 14:03:00","end_date":"2022-12-06 15:03:00","schedule_type":"text","text_title":"\u5065\u8eab"}
+
+where_data:
+2022-12-09 18:12:00
+{"id":"22840","user_id":"16"}
+
+schedule:
+2022-12-09 18:12:00
+{"customer_id":0,"item_id":"7","alert":0,"note":0,"start_date":"2022-12-06 14:03:00","end_date":"2022-12-06 15:03:00","schedule_type":"text","text_title":"\u5065\u8eab"}
+
+where_data:
+2022-12-09 18:15:40
+{"id":"22840","user_id":"16"}
+
+schedule:
+2022-12-09 18:15:40
+{"customer_id":0,"item_id":"7","alert":0,"note":"","start_date":"2022-12-06 14:03:00","end_date":"2022-12-06 15:03:00","schedule_type":"text","text_title":"\u5065\u8eab"}
+
+where_data:
+2022-12-09 18:27:34
+{"id":"22937","user_id":"16"}
+
+schedule:
+2022-12-09 18:27:34
+{"customer_id":"107","item_id":"2,3","alert":0,"note":"","start_date":"2022-12-06 09:09:00","end_date":"2022-12-06 10:09:00","schedule_type":"customer","text_title":""}
+
