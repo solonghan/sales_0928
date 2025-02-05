@@ -21,9 +21,6 @@ class Api extends Base_Controller
 		$this->load->model('Goal_model');
 		$this->login_url = base_url() . 'api/login';
 	}
-	public function git_test(){
-		print 23;exit;
-	}
 
 	// public function index()
 	// {
